@@ -1,7 +1,7 @@
 import React from "react";
 import './SeasonDisplay.css'
 
-// Seasons Dsiplay Function
+// Seasons Dsiplay Function 
 const SeasonDisplay = (props) => {
     const season = getSeason(props.lat, new Date().getMonth());
     console.log(season);
